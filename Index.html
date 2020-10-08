@@ -3,25 +3,102 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/tooltip.css">
+    <link rel="stylesheet" href="CSS/css-tooltip.css">
+    <style>
+        section {
+            padding: 300px;
+            background-image: url(Nizny-Tvarozec-2.png);
+            background-repeat: no-repeat;
+        }
+
+        .map-x-pin {
+            background-color: black;
+            /* So we can see where the pixel is */
+            height: 1px;
+            position: absolute;
+            width: 1px;
+        }
+
+        .map-x-pin::after {
+            background-color: red;
+            /* Decorative, this could be an image too */
+            bottom: 100%;
+            content: '';
+            display: block;
+            left: -10px;
+            /* Half of the width, give or take a pixel */
+            position: absolute;
+            height: 5px;
+            width: 5px;
+        }
+
+        .tooltip {
+
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
     <title>Zadanie 2</title>
 </head>
 
 <body>
     <section>
+        <div class="map-x-pin tooltip ihrisko">
+            <span class="tooltiptext">Futbalové ihrisko</span>
+        </div>
 
-        <img src="Image/Red-Dead-Redemption-2.png" alt="Red Dead Redemption 2">
+        <div class="map-x-pin tooltip cintorin">
+            <span class="tooltiptext">Cintorín</span>
+        </div>
 
-        <img src="Image/circle.png" alt="circle" width="150px" height="150px">
+        <div class="map-x-pin tooltip home">
+            <span class="tooltiptext">Môj dom</span>
+        </div>
 
-        <img src="Image/circle.png" alt="circle" width="150px" height="150px">
+        <div class="map-x-pin tooltip krcma">
+            <span class="tooltiptext">Krčma</span>
+        </div>
 
-        <img src="Image/circle.png" alt="circle" width="150px" height="150px">
-        <svg width="1067px" height="600px">
-            <!-- <circle cx="160" cy="250" r="80" stroke="black" stroke-width="4" fill="black" fill-opacity="0" /> -->
-            <image href="Image/circle.png" width="180px" height="180px" x="80" y="160" />
-        </svg>
+        <div class="map-x-pin tooltip obecny-urad">
+            <span class="tooltiptext">Obecný úrad</span>
+        </div>
+
+        <div class="map-x-pin tooltip kostol">
+            <span class="tooltiptext">Grecko-katolícký kostol</span>
+        </div>
+        <div class="map-x-pin tooltip z-skola">
+            <span class="tooltiptext">Základná škola</span>
+        </div>
     </section>
 </body>
 
 </html>
+<!-- <img src="Image/Red-Dead-Redemption-2.png" alt="Red Dead Redemption 2">
+
+<img src="Image/circle.png" alt="circle" width="150px" height="150px">
+
+<img src="Image/circle.png" alt="circle" width="150px" height="150px">
+
+<img src="Image/circle.png" alt="circle" width="150px" height="150px">
+<svg width="1067px" height="600px"> -->
+<!-- <circle cx="160" cy="250" r="80" stroke="black" stroke-width="4" fill="black" fill-opacity="0" /> -->
+<!-- <image href="Image/circle.png" width="180px" height="180px" x="80" y="160" />
+</svg> -->

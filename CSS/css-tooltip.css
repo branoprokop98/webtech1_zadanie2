@@ -1,0 +1,81 @@
+/* section{
+    padding: 1565px;
+    background-image: url(Nizny-Tvarozec.png);
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+}
+
+.map-x-pin {
+  background-color: black; /* So we can see where the pixel is 
+  height: 1px;
+  position: absolute;
+  width: 1px;
+}
+
+.map-x-pin::after {
+  background-color: red; /* Decorative, this could be an image too 
+  bottom: 100%;
+  content: '';
+  display: block;
+  left: -10px; /* Half of the width, give or take a pixel 
+  position: absolute;
+  height: 40px;
+  width: 20px;
+} */
+
+
+.ihrisko{
+    top: 220px; 
+    left: 425px;
+}
+
+.cintorin{
+    top: 170px; 
+    left: 495px;
+}
+
+.home{
+    top: 272px; 
+    left: 650px;
+}
+
+.krcma{
+    top: 290px; 
+    left: 590px;
+}
+
+.obecny-urad{
+    top: 300px; 
+    left: 605px;
+}
+
+.kostol{
+    top: 300px; 
+    left: 500px;
+}
+
+.z-skola{
+    top: 420px; 
+    left: 470px;
+}
+
+/* img {
+    display: grid;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+section{
+    z-index: 1;
+}
+
+.circle {
+    background-color:#fff;
+    border:5px solid rgb(0, 255, 55);    
+    height:100px;
+    border-radius:50%;
+    width:100px;
+} */
+
