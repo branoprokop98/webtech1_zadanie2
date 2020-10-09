@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-image: url(/Image/Nizny-Tvarozec-2-blur.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .map {
@@ -28,42 +35,42 @@
 }
 
 #pin-1 {
-  top:40%;
+  top:43%;
   left:60%;
 }
 
 #pin-2 {
-  top:35%;
+  top:38%;
   left:39%;
 }
 
 #pin-3 {
-  top:45%;
+  top:48%;
   left:55%;
 }
 
 #pin-4 {
-  top:47%;
+  top:50%;
   left:57%;
 }
 
 #pin-5 {
-  top:25%;
+  top:28%;
   left:46%;
 }
 
 #pin-6 {
-  top:70%;
+  top:73%;
   left:43%;
 }
 
 #pin-7 {
-  top:46%;
+  top:49%;
   left:46%;
 }
 
 #pin-8 {
-  top:46%;
+  top:49%;
   left:50%;
 }
 
@@ -95,4 +102,5 @@
 .image{
   margin: auto;
   padding: 2px;
+  box-shadow: 10px 10px 20px rgb(56, 56, 56);;
 }
