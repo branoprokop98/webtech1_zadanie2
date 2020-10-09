@@ -2,65 +2,17 @@
 <html lang="sk">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/css-tooltip.css">
-    <style>
-        section {
-            padding: 300px;
-            background-image: url(Nizny-Tvarozec-2.png);
-            background-repeat: no-repeat;
-        }
-
-        .map-x-pin {
-            background-color: black;
-            /* So we can see where the pixel is */
-            height: 1px;
-            position: absolute;
-            width: 1px;
-        }
-
-        .map-x-pin::after {
-            background-color: red;
-            /* Decorative, this could be an image too */
-            bottom: 100%;
-            content: '';
-            display: block;
-            left: -10px;
-            /* Half of the width, give or take a pixel */
-            position: absolute;
-            height: 5px;
-            width: 5px;
-        }
-
-        .tooltip {
-
-            display: inline-block;
-            border-bottom: 1px dotted black;
-        }
-
-        .tooltip .tooltiptext {
-            visibility: hidden;
-            width: 120px;
-            background-color: black;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px 0;
-
-            /* Position the tooltip */
-            position: absolute;
-            z-index: 1;
-        }
-
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
-        }
-    </style>
     <title>Zadanie 2</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS_Source/css-tooltip.css">
+    <style>
+    </style>
 </head>
 
 <body>
     <section>
+        <!-- <img src="Image/Nizny-Tvarozec-2.png" alt="Moja dedina" class="image-center"> -->
+
         <div class="map-x-pin tooltip ihrisko">
             <span class="tooltiptext">Futbalové ihrisko</span>
         </div>
