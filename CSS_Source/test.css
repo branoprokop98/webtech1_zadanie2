@@ -13,7 +13,7 @@ body{
 }
 
 .map {
-    margin-top: 10px;
+    margin:10px;
   position: relative;
   display: inline-block;
 
@@ -35,47 +35,47 @@ body{
 }
 
 #pin-1 {
-  top:43.5%;
+  top:41.5%;
   left:60.5%;
 }
 
 #pin-2 {
-  top:38%;
+  top:34%;
   left:39%;
 }
 
 #pin-3 {
-  top:46%;
+  top:44%;
   left:55%;
 }
 
 #pin-4 {
-  top:48.5%;
+  top:46.5%;
   left:56.5%;
 }
 
 #pin-5 {
-  top:28%;
+  top:24%;
   left:46%;
 }
 
 #pin-6 {
-  top:70%;
+  top:69%;
   left:43%;
 }
 
 #pin-7 {
-  top:47%;
+  top:45%;
   left:46%;
 }
 
 #pin-8 {
-  top:48%;
+  top:46%;
   left:49.5%;
 }
 
 #pin-9 {
-  top:43.5%;
+  top:40.5%;
   left:52%;
 }
 
